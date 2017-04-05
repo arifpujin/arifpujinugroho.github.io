@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Made Bhismayoga</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./programnya/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #000;
+    line-height: 1.8;
+}
+
+/* Untuk Membuat effectnya */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Latar Belakang Awal */
+.bgimg-1 {
+    background-image: url('./Gambar/default.jpg');
+    min-height: 100%;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Mematikan efeck gambar ke bawah */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navigasinya -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    </a>
+    <a href="#Awal" class="w3-bar-item w3-button"><p style="color: cyan">Awal</p></a>
+    <a href="#Materi" class="w3-bar-item w3-button w3-hide-small"><p style="color: cyan">Materi</p></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navigasi berjalan -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Materi" class="w3-bar-item w3-button" onclick="toggleFunction()">Materi</a>
+  </div>
+</div>
+
+<!-- Tampilan Awal -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="Awal">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Made Bhismayoga</span>
+  </div>
+</div>
+
+<!-- Tampilan Materi -->
+<div class="w3-content w3-container w3-padding-64" id="Materi">
+  <h3 class="w3-center"><strong>Sistem Operasi</strong></h3>
+  <p class="w3-center"><b><em><strong>A. Kenapa Informatika Mempelajari Operating System (OS)</strong></em></b></p>
+  <p style="text-align: center;">Sistem operasi merupakan salah satu perangkat lunak komputer, terlebih pada jaringan yang nantinya komputer tersebut digunakan untuk mengkoneksikan ke jaringan internet. Ada banyak alasan dan tujuan yang bisa kita jabarkan mengenai megnapa kita sebagai user wajib mempelajari sistem operasi komputer, meskipun hanya dasarnya. Berikut ini adalah beberapa tujuan mempelajari sistem operasi komputer  :</p>
+<br>
+<hr>
+<br>
+<p class="w3-center"><b><em><strong>B. Yang Dipelajari Pada Mata Kuliah Sistem Operasi</strong></em></b></p>
+  <p style="text-align: center;">Beberapa materi yang akan dipelajari pada mata kuliah Sistem Operasi diantaranya yaitu:
+<p>• sistem operasi
+<p>• struktur sistem komputer
+<p>• struktur sistem operasi
+<p>• proses
+<p>• thread
+<p>• penjadwalan cpu
+<p>• sinkronisasi
+<p>• deadlock
+<p>• manajemen memori
+<p>• virtual memori
+<p>• sistem file
+<p>• manajemen sistem
+<p>• sistem penyimpanan disk
+<p>• keamanan sistem dan proteksi
+</p>
+<br>
+<hr>
+<br>
+ <p class="w3-center"><b><em><strong>C. Bagian-Bagian OS</strong></em></b></p>
+  <p style="text-align: center;">Sistem Operasi secara umum terdiri dari beberapa bagian :
+<p>1.Mekanisme Booting, yaitu meletakan kernel ke dalam memory kernel, kernel dapat dikatakan sebagai inti dari Sistem Operasi.
+<p>2.Command Interpreter atau Shell, bertugas untuk membaca input berupa perintah dan menyediakan beberapa fungsi standar dan fungsi dasar yang dapat dipanggil oleh aplikasi/program maupub piranti lunak lain. Contoh dari Shell adalah : Command Prompt pada Windows XP (DOS pada Windows 98), XTerm dan Konsole di Mesin Linux (Unix).
+<p>3.Driver untuk berinteraksi dengan hardware sekaligus mengontrol kinerja hardware.
+<p>4.Resource Allocator. Sistem Operasi bertugas mengatur dan mengalokasikan sumber daya dari perangkat.
+<p>5.Handler. Handler berperan dalam mengendalikan sistem perangkat agar terhindar dari kekeliruan (error) dan penggunaan sumber daya yang tidak perlu.
+</p> 
+
+<br>
+<br>
+
+ <!-- bagian akhirnya -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#Awal" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Kembali ke atas</a>
+  <p>Dipublish oleh Made Bhismayoga (16520241025)</p>
+</footer>
+</body>
+</html>

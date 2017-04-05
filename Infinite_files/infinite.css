@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    background: #1e1e1e;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#header .nengah {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-down {
+    position: absolute;
+    margin:0 auto;
+    left: 50%;
+    right: 50%;
+    bottom: 20px;
+    display: block;
+    height: 46px;
+    width: 47px;
+    
+    z-index: 99;
+    background: url('../arrow-down.png');
+}
+
+.nengah img {
+    width: 50%;
+    height: auto;
+}
+#content {
+    min-height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+#content .icon {
+    width: 100px;
+    margin-top: 150px;
+}
+#content h1 {
+    font-color: #000;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+#content p {
+    font-color:  #000;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.vheight {
+    min-height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+.vheight h1 {
+    font-color: #000;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.vheight .media {
+    text-align: left;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+@media only screen and (max-width: 768px)  {
+    .vheight .media {
+        margin-bottom:0px !important;
+        min-height: 100px;
+    }
+}
+
+.vheight hr {
+    width: 60px;
+    border: 3px #1e1e1e solid;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+.button-to {
+    display: block;
+    line-height: 41px;
+    width: 100%;
+    height: 50px;
+    border: 3px #1e1e1e solid;
+
+    color: #1e1e1e !important;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.button-to:hover {
+    color: #fff !important;
+    background: #1e1e1e;
+    text-decoration: none;    
+}
+
+.button-to:active {
+    color: #fff !important;
+    background: #1e1e1e;
+    text-decoration: none;    
+}
+.button-to:focus {
+    color: #fff !important;
+    background: #1e1e1e;
+    text-decoration: none;    
+}
+
+.bidangit img{
+    width: 100%;
+    max-width: 250px;
+}
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #1e1e1e;
+    color: #fff;
+    font-weight: 10;
+    padding: 20px;
+    text-align: center;
+}
+

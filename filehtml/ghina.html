@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<title>Ghina Junia Syasmi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./programnya/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #000;
+    line-height: 1.8;
+}
+
+/* Untuk Membuat effectnya */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Latar Belakang Awal */
+.bgimg-1 {
+    background-image: url('./Gambar/default.jpg');
+    min-height: 100%;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Mematikan efeck gambar ke bawah */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navigasinya -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    </a>
+    <a href="#Awal" class="w3-bar-item w3-button"><p style="color: cyan">Awal</p></a>
+    <a href="#Materi" class="w3-bar-item w3-button w3-hide-small"><p style="color: cyan">Materi</p></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navigasi berjalan -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Materi" class="w3-bar-item w3-button" onclick="toggleFunction()">Materi</a>
+  </div>
+</div>
+
+<!-- Tampilan Awal -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="Awal">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Ghina Junia Syasmi</span>
+  </div>
+</div>
+
+<!-- Tampilan Materi -->
+<div class="w3-content w3-container w3-padding-64" id="Materi">
+  <h3 class="w3-center"><strong>Sistem Operasi</strong></h3>
+  <p class="w3-center"><b><em><strong>Pengertian dan penjelasan tentang OS</strong></em></b></p>
+  <p style="text-align: justify;">Sebelum kalian mengetahui alasan mengapa informatika mempelajari Sistem Operasi, kalian harus mengetahui apa yang dimaksud dengan Sistem Operasi, bagian-bagian Sistem Operasi, dan apa saja yang dipelajari di Sistem Operasi. Baiklah sekarang kita akan membahas apa yang dimaksud dengan Sistem Operasi. Sistem Operasi yang  biasa disebut (Operating System) atau yang biasa disingkat OS, iyalah perangkat lunak (software) sistem yang berfungsi melakukan pengontrolan dan manajemen perangkat keras (hardware) serta operasi-operasi dasar dari suatu sistem Komputer. Manajemen ini termasuk menjalakan software aplikasi seperti program  pengolah kata, pemutar multimedia, dan lain lainnya. Sistem Operasi adalah software pertama yang terdapat pada sebuah memori komputer pada saat komputer dalam keadaan running.
+ <p style="text-align: justify;">Sedangkan software lainnya akan running setelah SO(sistem operasi) berjalan terlebih dahulu. Setelah itu SO akan melakukan pelayanan terhadap software lainnya . Beberapa layanan yang biasa dilakukan oleh SO adalah:
+<p>1.  Akses Disk
+<p>2.  Manajemen Memori
+<p>3.  Penjadwalan Task
+<p>4.  Pengaturan user interface , dan lain-lain.
+ <p style="text-align: justify;">Beberapa task(tugas) diatas seharusnya dilakukan oleh Software. Akan tetapi dengan adanya SO, software ini tidak perlu mengerjakan job-job tersebut. Bagian SO  yang melakukan job-job  inti tersebut dikenal dengan nama Kernel.
+</p>
+<br>
+<hr>
+<br>
+<p class="w3-center"><b><em><strong>Secara umum  SO terdiri dari beberapa bagian yaitu :</strong></em></b></p>
+<p>1.Mekanisme Boot, yaitu meletakan kernel ke dalam memory kernel, kernel dapat dikatakan sebagai inti dari Sistem Operasi.
+ 
+<p>2.Command Interpreter atau Shell, bertugas untuk membaca input berupa perintah dan menyediakan beberapa fungsi standar dan fungsi dasar yang dapat dipanggil oleh aplikasi/program maupub piranti lunak lain. Contoh dari Shell adalah : Command Prompt pada Windows XP (DOS pada Windows 98), XTerm dan Konsole di Mesin Linux (Unix).
+ 
+<p>3.Driver untuk berinteraksi dengan hardware sekaligus mengontrol kinerja hardware.
+ 
+<p>4.Resource Allocator. Sistem Operasi bertugas mengatur dan mengalokasikan sumber daya dari perangkat.
+ 
+<p>5.Handler. Handler berperan dalam mengendalikan sistem perangkat agar terhindar dari kekeliruan (error) dan penggunaan sumber daya yang tidak perlu.
+
+<br>
+<hr>
+<br>
+<p class="w3-center"><b><em><strong>Apa yang akan dipelajari di OS?</strong></em></b></p>
+  <p style="text-align: justify;">Pada mata kuliah ini akan membahas tentang konsep perancangan sebuah sistem operasi, misalnya bagaimana konsep multitasking untuk menjalankan sebuah sistem operasi komputer, kenapa terjadi deadlock (hang), prinsip pipeline, membuat program sistem yang berhubungan dengan Kernel, Proses, Memori Manajamen, Sistem Call dan Topik lanjutan lainnya, termasuk membuat Driver untuk Hardware tertentu. Sebagai praktek mungkin akan menggunakan Linux. </p>
+<br>
+<hr>
+<br>
+<p class="w3-center"><b><em><strong>Mengapa informatika mempelajari OS</strong></em></b></p>
+  <p style="text-align: justify;">Dari penjelasan di atas sudah jelas mengapa informatika mempelajari OS, karena pada jurusan informatika ini OS bukanlah suatu pembahasan yang asing. Dan komputer jika tidak ada OS, maka tidak ada yang berfungsi melakukan pengontrolan dan manajemen perangkat keras (hardware) serta operasi-operasi dasar dari suatu sistem Komputer. Maka nya oleh sebab itu informatika harus mempelajari OS agar lebih mengetahui proses, cara kerja, kernel dan shell, pada komputer, dan membuat driver untuk hardware , bukan hanya jurusan informatika saja yang mempelajari OS, tapi semua jurusan yang masih bagian dari komputer pasti akan membahas tentang OS. </p>
+  <br>
+<hr>
+<br>
+<p class="w3-center"><b><em><strong>Baiklah sekian dari artikel saya, semoga bermanfaat bagi teman teman semua, wassalam</strong></em></b></p>
+<br><br><br>
+<p>Referensi:<br>
+<a href="http://www.duniailkom.com/apa-saja-yang-dipelajari-di-jurusan-ilmu-komputer-dan-teknik-informatika/" target="_blank">• http://www.duniailkom.com/apa-saja-yang-dipelajari-di-jurusan-ilmu-komputer-dan-teknik-informatika/</a>
+<br>
+<a href="http://www.candra.web.id/mengenal-mata-kuliah-jurusan-teknik-informatika/" target="_blank">• http://www.candra.web.id/mengenal-mata-kuliah-jurusan-teknik-informatika/</a>
+<br>
+<a href="http://www.gurupendidikan.com/pengertian-sistem-operasi-komputer-operating-system-terlengkap/" target="_blank">• http://www.gurupendidikan.com/pengertian-sistem-operasi-komputer-operating-system-terlengkap/</a>
+<br>
+<a href="https://amourbleu.wordpress.com/2012/02/01/bagian-sistem-operasi/" target="_blank">• https://amourbleu.wordpress.com/2012/02/01/bagian-sistem-operasi/</a> 
+<br>
+<br>
+
+ <!-- bagian akhirnya -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#Awal" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Kembali ke atas</a>
+  <p>Dipublish oleh Ghina Junia Syasmi (16520244001)</p>
+</footer>
+</body>
+</html>

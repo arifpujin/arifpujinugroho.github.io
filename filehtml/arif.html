@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>Arif Puji Nugroho</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./programnya/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #000;
+    line-height: 1.8;
+}
+
+/* Untuk Membuat effectnya */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Latar Belakang Awal */
+.bgimg-1 {
+    background-image: url('./Gambar/arif.jpg');
+    min-height: 100%;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Mematikan efeck gambar ke bawah */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navigasinya -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    </a>
+    <a href="#Awal" class="w3-bar-item w3-button"><i class="fa fa-connectdevelop"></i>RealLifeAPN</a>
+    <a href="#Materi" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paperclip"></i> Materi</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navigasi berjalan -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Materi" class="w3-bar-item w3-button" onclick="toggleFunction()">Materi</a>
+  </div>
+</div>
+
+<!-- Tampilan Awal -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="Awal">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Arif Puji Nugroho</span>
+  </div>
+</div>
+
+<!-- Tampilan Materi -->
+<div class="w3-content w3-container w3-padding-64" id="Materi">
+  <h3 class="w3-center"><strong>Sistem Operasi</strong></h3>
+  <p class="w3-center"><b><em><strong>APA SIH PENTINGNYA OPERATING SYSTEM BAGI INFORMATIKA?</strong></em></b></p>
+  <p style="text-align: justify;"><b>Sistem Operasi komputer</b> merupakan software pada lapisan pertama yang diletakkan pada memori komputer, (memori komputer dalam hal ini ada Hardisk, bukan memory ram) pada saat komputer dinyalakan. Sedangkan software-software lainnya dijalankan setelah Sistem Operasi Komputer berjalan, dan Sistem Operasi akan melakukan layanan inti umum untuk software-software itu. Layanan inti umum tersebut seperti akses ke disk, manajemen memori, skeduling task, dan antar-muka user. Sehingga masing-masing software tidak perlu lagi melakukan tugas-tugas inti umum tersebut, karena dapat dilayani dan dilakukan oleh Sistem Operasi. Bagian kode yang melakukan tugas-tugas inti dan umum tersebut dinamakan dengan kernel suatu Sistem Operasi.</p>
+<p style="text-align: justify;">Sistem Operasi berfungsi sebagai penghubung antara lapisan hardware dan lapisan software. selain itu, Sistem Operasi komputer juga melakukan semua perintah perintah penting dalam komputer, serta menjamin aplikasi-aplikasi yang berbeda fungsinya dapat berjalan lancar secara bersamaan tanpa hambatan. Sistem Operasi Komputer menjamin aplikasi perangkat lunak lainnya bisa memakai memori, melakukan input serta output terhadap peralatan lain, dan mempunya akses kepada sistem file. Jika beberapa aplikasi berjalan secara bersamaan, maka <b>Sistem Operasi Komputer</b> akan mengatur jadwal yang tepat, sehingga sebisa mungkin semua proses pada komputer yang berjalan mendapatkan waktu yang cukup untuk menggunakan CPU dan tidak saling mengganggu dengan perangkat yang lain.</p>
+<br>
+<br>
+  <p class="w3-center"><b><em><strong>ADA BEBERAPA BAGIAN DARI OPERATING SYSTEM?</strong></em></b></p>
+  <p style="text-align: justify;">Sebelum kita masuk ke bagian-bagian dari OS, perlu diketahui ada beberapa Sistem Operasi yang dikenal saat ini seperti Linux, Android, iOS, Mac OS X, dan Microsoft Windows.
+Bagian-bagian OS:<br>1.  Mekanisme Boot, meletakkan kernel kedalam memori kernel, kernel bisa dibilang sebagai inti dari Sistem Operasi.<br>2.  Command Interpreter atau Shell, membaca input berupa perintah dan menyediakan beberapa fungsi standar dan fungsi dasar yang dapat dipanggil oleh aplikasi/program maupub piranti lunak lain. Contoh dari Shell adalah : Command Prompt pada Windows XP (DOS pada Windows 98), XTerm dan Konsole di Mesin Linux (Unix).<br>3.  Driver untuk berinteraksi dengan hardware sekaligus mengontrol kinerja hardware.<br>4.  Resource Allocator. Sistem Operasi bertugas mengatur dan mengalokasikan sumber daya dari perangkat.<br>5.  Handler. Handler berperan dalam mengendalikan sistem perangkat agar terhindar dari kekeliruan (error) dan penggunaan sumber daya yang tidak perlu.
+
+</p>
+<br>
+<p>Referensi:<br><a href="http://belajar-komputer-mu.com/pengertian-sistem-operasi-komputer-operating-system/" target="_blank"> http://belajar-komputer-mu.com/pengertian-sistem-operasi-komputer-operating-system</a>
+<br><a href="http://blogmagista.blogspot.co.id/2012/09/bagian-bagian-dari-os.html" target="_blank"> http://blogmagista.blogspot.co.id/2012/09/bagian-bagian-dari-os.html</p>
+ 
+
+ <!-- bagian akhirnya -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#Awal" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Kembali ke atas</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://web.facebook.com/arifpujin/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/reallifeapn/" target="_blank"></a><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Dipublish oleh <a href="https://web.facebook.com/arifpujin" title="Profil Arif Puji Nugroho" target="_blank" class="w3-hover-text-red">Arif Puji Nugroho (16520241009)</a></p>
+</footer>
+</body>
+</html>
